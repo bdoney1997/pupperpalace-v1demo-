@@ -45,7 +45,7 @@
 
 <div  align="center">
 
-<a  href="[https://github.com/reza-s/pupper-palace](https://github.com/bdoney1997/pupperpalace-v1demo-)">
+<a  href="https://github.com/bdoney1997/pupperpalace-v1demo-">
 
 <img  src="https://cdn.discordapp.com/attachments/1067967671519424606/1097365525052530688/PUPPER_PALACE_LOGO_T.png"  alt="Logo"  width="160"  height="300">
 
