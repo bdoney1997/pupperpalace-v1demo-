@@ -47,7 +47,7 @@
 
 <a  href="https://github.com/reza-s/pupper-palace">
 
-<img  src="https://cdn.discordapp.com/attachments/1067967671519424606/1097365525052530688/PUPPER_PALACE_LOGO_T.png"  alt="Logo"  width="160"  height="300">
+<img  src="src/images/PUPPER_PALACE_LOGO.png"  alt="Logo"  width="160"  height="300">
 
 </a>
 
@@ -177,7 +177,7 @@ Copy-paste both the installation commands depending if you are using Yarn or NPM
 
 ```sh
 
-git clone https://github.com/reza-s/pupper-palace
+git clone https://github.com/bdoney1997/pupperpalace-v1demo-
 
 ```
 
