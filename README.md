@@ -45,7 +45,7 @@
 
 <div  align="center">
 
-<a  href="https://github.com/bdoney1997/pupperpalace-v1demo-">
+<a  href="https://github.com/reza-s/pupper-palace">
 
 <img  src="https://cdn.discordapp.com/attachments/1067967671519424606/1097365525052530688/PUPPER_PALACE_LOGO_T.png"  alt="Logo"  width="160"  height="300">
 
@@ -105,6 +105,8 @@
 
 <li><a  href="#roadmap">Roadmap</a></li>
 
+<li><a  href="#contributers">Contributers</a></li>
+
 </ol>
 
 </details>
@@ -123,9 +125,10 @@
 
   
 
-Pupper Palace will be used for a pet daycare business as an appointment management system. Customers will be in contact with an employee to book appointments for their pets. The pets will be left at the daycare under the care of the business. Employees will be aware of the needs and status of the pets on the premises. Customers will then be able to pick up their pets and pay.
+Pupper palace was created for Shoaf Studio seeking a data management application for a pet sitting company opening in the greater Sacramento area. Our client, Steven Shoaf, wanted to be able to update the older application to have a more "modern" UI with updated features such as a calandar. Pupper Palace is an appointment management system used for a pet daycare business. The way this application is handled is through an employee to customer 
+interaction. Employees will be able to see a calandar and list of all current and upcoming pets, manage appointments, and be able to see notes on the pet. Customers will be in contact with an employee to schedule appointments for their pets and pay for their appointments through Stripe. 
 
-  
+   
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
@@ -253,6 +256,15 @@ npm run  electron
 
 * []() Try installing both Yarn and NPM
 
+* []() If trouble regarding SQLite, try uninstalling and reinstalling SQLite
+```bash
+
+npm uninstall  sqlite3  --save
+
+npm install  sqlite3  --no-save
+
+```
+
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
   
@@ -263,7 +275,11 @@ npm run  electron
 
 ## Usage
 
-This new revamped desktop application will not only allow our clients employees to book appointments, but also see the history of the entire account. History such as customer information, payments, pet information.
+Pupper Palace, the innovative pet care app, is poised to revolutionize the way we prioritize the well-being of your furry companions. By harnessing the unique health profiles of your beloved pets, Pupper Palace is committed to curating an unparalleled and secure experience for your furry friends. This groundbreaking platform aims to leverage the individual health statuses of your pets, ensuring a tailored and meticulous approach to their care.
+
+The app boasts an intuitive and user-friendly interface, designed to streamline the process of scheduling appointments and seamlessly tracking your pet's health progress. The cutting-edge technology integrated into Pupper Palace is set to redefine efficiency, significantly reducing check-in and check-out times to prioritize more quality moments with your pets.
+
+Embrace peace of mind and convenience with Pupper Palace as it leads the charge in prioritizing your pet's safety and well-being like never before.
 
   
 
@@ -285,11 +301,11 @@ This new revamped desktop application will not only allow our clients employees 
 
 - [x] Log-in Screen
 
-- [ ] Refine the UI
+- [x] Refine the UI
 
-- [ ] Add analytical dashboard
+- [x] Add analytical dashboard
 
-- [ ] Add payments
+- [x] Add payments
 
 
 
@@ -303,7 +319,6 @@ This new revamped desktop application will not only allow our clients employees 
 
 ## Testing
 
-  
 As part of Pupper Palace's commitment to delivering a seamless and robust user experience, each facet of the application has undergone meticulous testing to ensure optimal functionality and database accuracy. The core pages and functionalities have been subjected to thorough scrutiny, leaving no stone unturned in guaranteeing their reliability and responsiveness.
 
 The login page, serving as the gateway to the app, has been rigorously tested for both security and usability. Verification procedures ensure that user authentication operates seamlessly while safeguarding sensitive information.
@@ -314,6 +329,9 @@ The home page, the central hub of the app, has been subjected to comprehensive t
 
 Furthermore, the customer page, settings page, and pet page have undergone meticulous testing for accurate database changes and button functionality. Any interactions that trigger database modifications have been scrutinized to ensure that data updates occur seamlessly and accurately.
 
+  
+
+
 
   
   
@@ -322,8 +340,7 @@ Furthermore, the customer page, settings page, and pet page have undergone metic
 <!-- Deployment -->
 
 ## Deployment
-
-To setup and run refer to installation.
+To setup and run refer to <a href ="#Installation"> installation</a>. 
 
 Pupper Palace Electron App:
 * []() The 'Pupper Palace' app, an Electron-based application, will be installed on the desktop compgiuter.
@@ -333,6 +350,37 @@ Pupper Palace Electron App:
 * []() The following NPM version was utilized in the production of this project: npm version 9.5.1
 * []() The following Yarn version was utilized in the production of this project: npm version 1.22.19
 * []() Additional version checks: SQLite3 version 3.44.2, React version 18.2.0+, Stripe 14.4.0+
+
+  
+<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
+
+<!-- Contributers -->
+
+## Contributers
+Pupper Palace was created by Fatal Push for Shoaf Studio. 
+
+Fatal Push members:
+
+Brian Shao bshao@csus.edu
+
+Matthew Dominguez matthewdominguez@csus.edu
+
+Micah Richardson micahrichardson@csus.edu
+
+Tou Vang touvang5@csus.edu
+
+Gurvinder Dhuncy gurvinderdhuncy@csus.edu
+
+Abel Ontiveros abelontiveros@csus.edu
+
+Reza Selseleh rselseleh@csus.edu
+
+Brandon Doney brandondoney@csus.edu
+
+
+Shoaf Studio
+
+Steven Shoaf steven@shoafstudio.io
   
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
   
@@ -348,7 +396,6 @@ Pupper Palace Electron App:
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
 
 [forks-url]: https://github.com/github_username/repo_name/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
 
 [stars-url]: https://github.com/github_username/repo_name/stargazers
@@ -394,4 +441,4 @@ Pupper Palace Electron App:
 
   
 
-[appointment-page]: https://cdn.discordapp.com/attachments/1067967671519424606/1098829173604241438/apptPage1.jpg
+[appointment-page]: https://cdn.discordapp.com/attachments/1067968594207584317/1180045734544949298/Readme_pic.png?ex=657bfe3b&is=6569893b&hm=332fc9eb82d31d08412ab1525622f8627c068a8cadb623cb90cd543e4c347480&
