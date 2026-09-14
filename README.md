@@ -326,14 +326,13 @@ Furthermore, the customer page, settings page, and pet page have undergone metic
 To setup and run refer to installation.
 
 Pupper Palace Electron App:
-
-    The 'Pupper Palace' app, an Electron-based application, will be installed on the desktop compgiuter.
-    The app manages appointments, customers, pets, and employees using a local SQLite3 database.
-    This app has been tested and deployed on: Windows 10, Windows 11, MacOS.
-    Stripe supports the following browsers and versions: Chrome 38+, Safari 10.1+, Firefox 29+, Edge 15+, Opera 25+
-    The following NPM version was utilized in the production of this project: npm version 9.5.1
-    The following Yarn version was utilized in the production of this project: npm version 1.22.19
-    Additional version checks: SQLite3 version 3.44.2, React version 18.2.0+, Stripe 14.4.0+
+* []() The 'Pupper Palace' app, an Electron-based application, will be installed on the desktop compgiuter.
+* []() The app manages appointments, customers, pets, and employees using a local SQLite3 database.
+* []() This app has been tested and deployed on: Windows 10, Windows 11, MacOS.
+* []() Stripe supports the following browsers and versions: Chrome 38+, Safari 10.1+, Firefox 29+, Edge 15+, Opera 25+
+* []() The following NPM version was utilized in the production of this project: npm version 9.5.1
+* []() The following Yarn version was utilized in the production of this project: npm version 1.22.19
+* []() Additional version checks: SQLite3 version 3.44.2, React version 18.2.0+, Stripe 14.4.0+
   
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
   
