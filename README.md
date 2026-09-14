@@ -61,6 +61,10 @@
 
 </p>
 
+<p  align="center">My work I have committed to this project include mainly the front-end design of elements on the page and the overall look and organization of the project. It turned it really nicely with the back-end being flown seamlessly with the front-end.
+
+</p>
+
 </div>
 
   
