@@ -304,7 +304,15 @@ This new revamped desktop application will not only allow our clients employees 
 ## Testing
 
   
+As part of Pupper Palace's commitment to delivering a seamless and robust user experience, each facet of the application has undergone meticulous testing to ensure optimal functionality and database accuracy. The core pages and functionalities have been subjected to thorough scrutiny, leaving no stone unturned in guaranteeing their reliability and responsiveness.
 
+The login page, serving as the gateway to the app, has been rigorously tested for both security and usability. Verification procedures ensure that user authentication operates seamlessly while safeguarding sensitive information.
+
+The appointment page, a crucial component of Pupper Palace's service, has been meticulously assessed. Its functionality in scheduling, modifying, and canceling appointments has been rigorously examined to ensure precision and user-friendliness.
+
+The home page, the central hub of the app, has been subjected to comprehensive testing to ensure swift navigation and access to essential features. Its responsiveness and ability to provide intuitive access to diverse functionalities have been fine-tuned for an enhanced user experience.
+
+Furthermore, the customer page, settings page, and pet page have undergone meticulous testing for accurate database changes and button functionality. Any interactions that trigger database modifications have been scrutinized to ensure that data updates occur seamlessly and accurately.
 
 
   
@@ -315,7 +323,17 @@ This new revamped desktop application will not only allow our clients employees 
 
 ## Deployment
 
+To setup and run refer to installation.
 
+Pupper Palace Electron App:
+
+    The 'Pupper Palace' app, an Electron-based application, will be installed on the desktop compgiuter.
+    The app manages appointments, customers, pets, and employees using a local SQLite3 database.
+    This app has been tested and deployed on: Windows 10, Windows 11, MacOS.
+    Stripe supports the following browsers and versions: Chrome 38+, Safari 10.1+, Firefox 29+, Edge 15+, Opera 25+
+    The following NPM version was utilized in the production of this project: npm version 9.5.1
+    The following Yarn version was utilized in the production of this project: npm version 1.22.19
+    Additional version checks: SQLite3 version 3.44.2, React version 18.2.0+, Stripe 14.4.0+
   
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
   
